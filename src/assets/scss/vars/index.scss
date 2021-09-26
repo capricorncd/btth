@@ -1,0 +1,11 @@
+/**
+ * Created by Capricorncd.
+ * https://github.com/capricorncd
+ * Date: 2021-09-25 14:13 (GMT+0900)
+ */
+@import "/node_modules/zx-css/src/vars";
+
+// Override the _calc method
+@function _calc($val) {
+  @return calc(1rem / 16 * #{$val});
+}
