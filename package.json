@@ -10,7 +10,10 @@
     "react",
     "typescript",
     "dev3cli",
-    "斗破苍穹"
+    "vite",
+    "斗破苍穹",
+    "scss",
+    "sass"
   ],
   "scripts": {
     "dev": "vite",
